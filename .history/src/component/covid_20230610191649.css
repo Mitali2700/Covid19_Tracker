@@ -156,7 +156,7 @@ ul{
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 988px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     /* Styles for tablets */
     .card1,
     .card2,
@@ -168,19 +168,4 @@ ul{
         margin: 20px 1%;
     }
 }
-
-@media only screen and (min-width: 989px) {
-    /* Styles for larger screens (desktop) */
-    ul {
-        justify-content: center;
-    }
-    .card1,
-    .card2,
-    .card3,
-    .card4,
-    .card5,
-    .card6 {
-        width: 30%;
-        margin: 30px;
-    }
-}
+     

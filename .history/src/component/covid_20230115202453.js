@@ -2,14 +2,13 @@ import React, { useEffect, useState} from 'react'
 import './covid.css'
 
 const Covid = () => {
-    const[data, setData]= useState([]);
+    const[data, sedtData]= useState([]);
     const getCovidData = async () => {
         try{
-            
             const res= await fetch('https://data.covid19india.org/data.json');
             const actualData =await res.json();
             console.log(actualData.statewise[0]);
-            setData(actualData.statewise[0]);
+            sedtData(actualData.statewise[0]);
         }catch (err){
             console.log(err);
         }
